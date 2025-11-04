@@ -7,7 +7,7 @@ When you clone this environment and run the .py script from a venv, sign off on 
 <<<<<<< HEAD
 ======
 |Mason|Rpi1|11/3/25| - [x] Vibes |
-| NOah Mahki  |raspberry pi #3|11/5/25| - [ ] Vibes |
+| Noah Mahki  |raspberry pi #3|11/5/25| - [x] Vibes |
 |Mason|Rpi2|11/3/25| - [x] Vibes |
 >>>>>>> f8c7f1f6de352e7fdae8ae61f4f9a2879256c026
 |  |  |  | - [ ] Vibes |
