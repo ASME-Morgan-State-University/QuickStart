@@ -4,6 +4,7 @@ When you clone this environment and run the .py script from a venv, sign off on 
 
 | Name of person | Name of computer | Date | Vibe check |
 |---|---|---|---|
+|Mason|Rpi1|11/3/25| - [x] Vibes |
 |  |  |  | - [ ] Vibes |
 |Mason|Rpi2|11/3/25| - [x] Vibes |
 |  |  |  | - [ ] Vibes |
