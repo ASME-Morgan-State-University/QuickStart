@@ -4,7 +4,7 @@ When you clone this environment and run the .py script from a venv, sign off on 
 
 | Name of person | Name of computer | Date | Vibe check |
 |---|---|---|---|
-|  |  |  | - [ ] Vibes |
+| NOah Mahki  |raspberry pi #3|  | - [ ] Vibes |
 |  |  |  | - [ ] Vibes |
 |  |  |  | - [ ] Vibes |
 |  |  |  | - [ ] Vibes |
