@@ -4,8 +4,9 @@ from flask_socketio import SocketIO
 
 import Sensor.Temp as Temp
 import Sensor.imu as imu
-import Sensor.Motor as Motorteam
+import Sensor.Motor as Motor
 import Sensor.auxReader as auxreader
+import Sensor.GPS as gps
 
 app = Flask(__name__)
 socketio = SocketIO(app, cors_allowed_origins="*")
@@ -90,6 +91,12 @@ async def aux_sensors():
         Auxvoltage = await asyncio.to_thread(auxreader.getAuxVoltag)
         Auxcurrent = await asyncio.to_thread(auxreader.getAuxCurrent)
         await asyncio.sleep(0.1)
+        
+async def gps_sensors():
+    global Lat, Lon, Sc
+    while True:
+        Lat, Lon, Sc = await asyncio.to_thread(gps.getGPS)  # Placeholder for GPS data
+        await asyncio.sleep(0.1)
 
 
 async def main():
@@ -98,7 +105,8 @@ async def main():
         imu_sensors(),
         motor_sensors(),
         aux_sensors(),
-        broadcast_sensor_data()
+        broadcast_sensor_data(),
+        gps_sensors()
     )
 
 if __name__ == "__main__":
