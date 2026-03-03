@@ -1,6 +1,6 @@
-# ASME Quick Start Program
+# ASME Quick Start Program (Rolled Back)
 
-When you clone this environment and run the .py script from a venv, sign off on this Table!
+When you clone this environment and run the .py script from a venv, sign off on this Table! 
 
 | Name of person | Name of computer | Date | Vibe check |
 |---|---|---|---|
